@@ -11,7 +11,7 @@ const PlyerContextProvider=(props)=>{
 
 
 //connection with backend code
-    const url='http://localhost:4000';
+    const url='https://spotify-full-stack-mpbu.onrender.com';
 
         const[songsData,setSongsData]=useState([]);
         const[albumsData,setAlbumsData]=useState([]);
